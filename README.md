@@ -6,3 +6,6 @@
 cd autoPlay
 sh -x autoPlay.sh
 ```
+
+# 分享博文
+http://zhangjh.me/2017/07/31/raspberry-autoplay/
