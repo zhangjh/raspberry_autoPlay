@@ -51,7 +51,7 @@ buildAudio ${text} ${audioPath}/time.mp3
 playAudio ${audioPath}/time.mp3
 
 #播放天气
-weatherText=`python getWeather.py`
+weatherText=`python getWeather.py 杭州`
 weatherText=`echo ${weatherText} | sed -e s/\ //g -e s/~/到/g`
 if [ $? -ne 0 ];then
     echo "获取天气失败"
