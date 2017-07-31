@@ -9,7 +9,7 @@ import json
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-url = "http://api.map.baidu.com/telematics/v3/weather?location=%E6%9D%AD%E5%B7%9E&output=json&ak=E577a29e33bc8df7619f6c364501fd09"
+url = "http://api.map.baidu.com/telematics/v3/weather?location=" + argv[1] + "&output=json&ak=E577a29e33bc8df7619f6c364501fd09"
 req = urllib2.Request(url)
 #print req
 
